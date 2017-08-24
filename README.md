@@ -9,16 +9,16 @@
 
 类比人脑:  
     > 神经末梢---电信号---神经细胞(神经元)---神经中枢---对外部做出反应
-$$ z = ∑权重*外部因素+阈值   
-$$ z = wx+b
+- z = ∑权重*外部因素+阈值   
+- z = wx+b
 - 模型训练的本质就是训练权重+阈值
 - z->∞ ->1
 - z->-∞ ->0
 - 所以形成的图由0 1 组成—>输出的连续性
 
 - 感知器｛
-        - 单向信号模型
-        - 递归神经网络模型
+        1. 单向信号模型
+        2. 递归神经网络模型
       - ｝
 
 
@@ -28,19 +28,19 @@ $$ z = wx+b
     3. Core ML
 - 库{
     - 算法方向:{
-                - Natual(自然语言处理)
-                - ConrNetJs(卷积神经网络CNN)
-                - - pixzcode
-          - }
+                1. Natual(自然语言处理)
+                2. ConrNetJs(卷积神经网络CNN)
+                3. pixzcode
+           }
     - 神经网络:{
-                - brain.js
-                - Deep playground
-                - Synaptic deeplearn.js
-         - }
+                1. brain.js
+                2. Deep playground
+                3. Synaptic deeplearn.js
+          }
    -  辅助库{
-                - node-svm(向量机)
-                - mljs(具有多个函数方法的子库)
-         - } 
+                1. node-svm(向量机)
+                2. mljs(具有多个函数方法的子库)
+          } 
 
 
-- }
+ }
